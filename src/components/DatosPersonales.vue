@@ -4,17 +4,17 @@ import instagram from '/src/assets/instagram_icon.svg';
 import github from '/src/assets/github_icon.svg';
 import cv from '/src/assets/cv_resume_icon.svg';
 
-const title = 'Juan Perez';
-const descripcion = 'Técnico Universitario en Programación - UTN';
-const residencia = 'San Rafael, Mendoza, Argentina';
-const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.';
+const title = 'Santiago Torres';
+const descripcion = 'Estudiante de Tecnicatura en Programación - UTN';
+const residencia = 'CABA, Buenos Aires, Argentina';
+const presentacion = 'Hola, Bienvenido a mi portafolio personal. Actualmente soy estudiante de la Tecnicatura en Programación en la UTN San Rafael y jugador profesional de vóley en el Club Ferrocarril Oeste.';
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/jose-perez/' },
-  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/joseperez/' },
-  { id: 3, name: 'github', src: github, url: '' },
+  { id: 1, name: 'linkedin', src: linkedin, url: 'www.linkedin.com/in/santi-torres-' },
+  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/santiitorrees_/?hl=es' },
+  { id: 3, name: 'github', src: github, url: 'https://github.com/Serrix06' },
   { id: 4, name: 'curriculum', src: cv, url: '' },
 ];
-const telefono = '+54 9 2604-474849';
+const telefono = '+54 9 261 654-9332';
 </script>
 
 <template>

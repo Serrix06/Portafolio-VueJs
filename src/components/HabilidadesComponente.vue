@@ -28,36 +28,23 @@ const habilidades = ref([
     {// Se crea un objeto con id, nombre y habilidades
         id: 1, nombre: 'Lenguajes de Programación', habilidades: [
             //Se crea un objeto con id, nombre, nivel e icono
-            { id: 1, nombre: 'JavaScript', nivel: 'Avanzado', icono: img1 },
-            { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: img2 },
-            { id: 3, nombre: 'HTML/CSS', nivel: 'Avanzado', icono: img3 },
-            { id: 4, nombre: 'Java', nivel: 'Intermedio', icono: img4 },
-            { id: 5, nombre: 'SQL', nivel: 'Intermedio', icono: img5 }
-        ]
-    },
-    {
-        id: 2, nombre: 'Frameworks y Librerías', habilidades: [
-            { id: 1, nombre: 'React.js', nivel: 'Avanzado', icono: img6 },
-            { id: 2, nombre: 'Vue.js', nivel: 'Intermedio', icono: img7 },
-            { id: 3, nombre: 'Node.js', nivel: 'Avanzado', icono: img8 },
-            { id: 4, nombre: 'Django', nivel: 'Intermedio', icono: img9 },
-            { id: 5, nombre: 'Bootstrap', nivel: 'Avanzado', icono: img10 }
+            { id: 1, nombre: 'JavaScript', nivel: 'Basico', icono: img1 },
+            { id: 2, nombre: 'Python', nivel: 'Basico', icono: img2 },
+            { id: 3, nombre: 'HTML/CSS', nivel: 'Principiante', icono: img3 },
+            { id: 4, nombre: 'Java', nivel: 'Basico', icono: img4 },
+            { id: 5, nombre: 'SQL', nivel: 'Principiante', icono: img5 }
         ]
     },
     {
         id: 3, nombre: 'Herramientas y Software', habilidades: [
-            { id: 1, nombre: 'Git', nivel: 'Avanzado', icono: img11 },
-            { id: 2, nombre: 'Docker', nivel: 'Intermedio', icono: img12 },
-            { id: 3, nombre: 'Cypress', nivel: 'Intermedio', icono: img13 },
-            { id: 4, nombre: 'Figma', nivel: 'Intermedio', icono: img14 },
-            { id: 5, nombre: 'Visual Studio Code', nivel: 'Avanzado', icono: img15 }
+            { id: 1, nombre: 'Git', nivel: 'Intermedio', icono: img11 },
+            { id: 5, nombre: 'Visual Studio Code', nivel: 'Basico', icono: img15 }
         ]
     },
     {
         id: 4, nombre: 'Bases de Datos', habilidades: [
-            { id: 1, nombre: 'MongoDB', nivel: 'Avanzado', icono: img16 },
-            { id: 2, nombre: 'MySQL', nivel: 'Intermedio', icono: img17 },
-            { id: 3, nombre: 'PostgreSQL', nivel: 'Intermedio', icono: img18 }
+            { id: 1, nombre: 'MySQL', nivel: 'Basico', icono: img17 },
+            
         ]
     },
     {
